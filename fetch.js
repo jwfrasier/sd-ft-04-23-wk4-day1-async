@@ -2,7 +2,7 @@ const findWeather = document.querySelector("#findweather");
 findWeather.addEventListener("click", getPokemon);
 async function getPokemon() {
   const pokemon = await fetch(
-    "https://api.openweathermap.org/data/2.5/weather?units=imperial&lat=29.7604&lon=-95.3698&appid=ff1cadec65d9f10c3aafc2a01b14612c"
+    "https://api.openweathermap.org/data/2.5/weather?units=imperial&lat=29.7604&lon=-95.3698&appid="
   );
   const body = document.querySelector("body");
 
